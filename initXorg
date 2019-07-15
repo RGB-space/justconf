@@ -1,0 +1,5 @@
+#!/bin/bash
+
+setxkbmap -layout "us,ru" -option "grp:ctrl_shift_toggle,grp_led:caps"
+xmodmap ~/.Xmodmap
+xrdb -merge ~/.Xresources
